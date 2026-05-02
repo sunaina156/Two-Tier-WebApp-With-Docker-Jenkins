@@ -5,7 +5,7 @@ mysql-data/
 __pycache__/
 *.pyc
 
-# Environment files
+# Environment variables
 *.env
 
 # OS files
