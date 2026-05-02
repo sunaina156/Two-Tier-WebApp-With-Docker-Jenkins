@@ -34,6 +34,7 @@ pipeline {
         stage('Clean Old Containers') {
             steps {
                 sh 'docker-compose down || true'
+                sh docker rm -f mysql || true
             }
         }
 
