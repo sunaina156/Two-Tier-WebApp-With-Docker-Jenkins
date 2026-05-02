@@ -31,6 +31,12 @@ pipeline {
             }
         }
 
+        stage('Clean Old Containers') {
+            steps {
+                sh 'docker-compose down || true'
+            }
+        }
+
         stage("Deploy") {
             steps {
                 sh "docker-compose up -d --build"
