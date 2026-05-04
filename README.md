@@ -90,6 +90,7 @@ The project is deployed on an AWS EC2 instance to simulate a real-world producti
 
 > sudo systemctl start jenkins
 > sudo systemctl enable jenkins
+<img width="1088" height="637" alt="image" src="https://github.com/user-attachments/assets/8d776b4b-0a78-43b4-83f1-93ae1c96390a" />
 
   
 # Add User to Docker Group
@@ -121,6 +122,7 @@ http://<EC2-PUBLIC-IP>:5000
 # Jenkins Setup
 Unlock Jenkins
 > sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+<img width="1709" height="750" alt="image" src="https://github.com/user-attachments/assets/7ee657d8-45cc-403b-80d3-4c77d620669f" />
 
 Then, install all suggested Plugins
 
@@ -146,6 +148,12 @@ Repository URL: https://github.com/sunaina156/Two-Tier-WebApp-With-Docker-Jenkin
 Branch: main
 Script Path: Jenkinsfile
 
+Build Now:
+See Console Output:
+<img width="1560" height="639" alt="image" src="https://github.com/user-attachments/assets/1ec7ee45-f3e0-4b0f-8bd0-b00f3a7c7437" />
+<img width="571" height="306" alt="image" src="https://github.com/user-attachments/assets/378cc04b-8614-49d0-8a70-a2867fa80071" />
+
+pipeline succussful 
 
 Access Application:
 http://<EC2-PUBLIC-IP>:5000
