@@ -149,5 +149,8 @@ Script Path: Jenkinsfile
 
 Access Application:
 http://<EC2-PUBLIC-IP>:5000
+
+<img width="1491" height="871" alt="image" src="https://github.com/user-attachments/assets/9cb4b807-f424-47cc-a9b5-349969ce8dda" />
+
 (It's running)
 
